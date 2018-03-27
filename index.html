@@ -3,7 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="main.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+		<script src="js/script.js"></script>
 	</head>
 	<body>
 		<div class="row">
@@ -12,7 +12,8 @@
 			</div>
 			<div class="col-md-6">
 				<h2>Hello this is another chunk of text with 6 columns</h2>
-				<button type="button" class="btn btn-primary">Click here!</button>
+				<button type="button" onclick="revealMessage()" class="btn btn-primary">Click here!</button>
+				<p id="hiddenMessage" style="display:none">You found the secret message!</p>
 			</div>
 		</div>
 
