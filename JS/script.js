@@ -5,7 +5,13 @@ $(document).ready(function() {
 	function () {
 		$(this).hide();
 	});
+
+	$("button").click(function() {
+		alert("I'm alerting you");
+	})
 });
+
+
 
 function revealMessage() {
 	document.getElementById("hiddenMessage").style.display = 'block';
