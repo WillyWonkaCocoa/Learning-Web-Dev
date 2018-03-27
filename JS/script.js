@@ -1,3 +1,12 @@
+$(document).ready(function() {
+	$("#hidden").hover(function() {
+		$(this).css("color", "black");
+	},
+	function () {
+		$(this).hide();
+	});
+});
+
 function revealMessage() {
 	document.getElementById("hiddenMessage").style.display = 'block';
 }
@@ -10,3 +19,4 @@ function countDown(){
 	}
 	document.getElementById("countDownButton").innerHTML = newVal;
 }
+
